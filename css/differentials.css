@@ -1,0 +1,52 @@
+.differentials {
+    padding-top:2.5rem;
+    padding-bottom:2.5rem;
+    background-image: linear-gradient(#f1f1f1,#DFE3E5);
+}
+
+.differentials-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.differentials-item {
+    max-width: 300px;
+    background-repeat: no-repeat;
+    padding: 2rem 0 2rem 5rem;
+    background-position: top 1.50rem left 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+
+ }
+
+.differentials-title {
+    margin-bottom: .50rem;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.differentials-texto {
+    line-height: normal;
+}
+
+ .differentials-item.-tempo {
+     background-image: url(../img/icone-relogio.png);     
+ }
+
+ .differentials-item.-especialista {
+     background-image: url(../img/icone-quimica.png);
+ }
+
+ .differentials-item.-foco {
+     background-image: url(../img/icone-dinheiro.png);
+ }
+
+
+ @media screen and (min-width:1024px){
+    .differentials-lista {
+        justify-content: space-around;
+    }
+}

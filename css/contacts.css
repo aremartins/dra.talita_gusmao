@@ -1,0 +1,77 @@
+.contacts {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(#fafafa, #a7b6bd) ;
+    position: relative;
+}
+
+.contacts-title {
+    text-align: center;
+    color: var(--gold);
+    text-shadow: 1px 1px 2px #654914ea;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.tels-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.tels-contacts p {
+    margin-bottom: .75rem;
+    font-size: 1.2rem;
+    color: var(--cinza-escuro);
+}
+
+.midia-contacts {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.midia-contacts img {
+    width:30px;
+    height: 30px;
+}
+
+.topo {
+    background: var(--gold);
+    color: #f2f2f2;
+    border: 1px solidi var(--gold);
+    box-sizing: border-box;
+    padding:12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 35rem;
+    top:13rem;
+
+    
+}
+
+@media screen and (min-width:1024px) {
+    .contacts-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    .tels-contacts p {
+        font-size: 1.8rem;
+    }
+
+    .midia-contacts {
+        flex-direction: row-reverse;
+        justify-content:right ;
+    }
+
+    .midia-contacts img {
+        margin-right: 1rem;
+    }
+
+}
